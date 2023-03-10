@@ -1,4 +1,5 @@
 import React from "react";
+import "./Testimonial.css"
 
 const Testimonial = () => {
   return (
@@ -29,7 +30,7 @@ const Testimonial = () => {
                 className="zl-testimonial-items"
                 style={{
                   cursor: "grab",
-                  transform: "translate3d(-504px, 0px, 0px)",
+                  transform: "translate3d(-66vw, 0vw, 0vw)",
                   transitionDuration: "0ms",
                   translate: "none",
                   rotate: "none",
@@ -38,7 +39,7 @@ const Testimonial = () => {
                   opacity: 1,
                 }}
               >
-                <div className="zl-testimonial-item -prev-slide">
+                <div className="zl-testimonial-item prev-slide">
                   <div className="zl-testimonial-text">
                     <q>
                       We came to ZenX as a well-established company with a goal
@@ -92,10 +93,10 @@ const Testimonial = () => {
                       </div>
                       <div className="zl-testimonial-author-col -right">
                         <div className="zl-testimonial-name">
-                          Jon Trask, CEO
+                          Dr Dilip K Patnaik
                         </div>
                         <div className="zl-testimonial-title">
-                          Dimitra Technology
+                          Vice Chancellor
                         </div>
                       </div>
                     </div>
@@ -121,10 +122,10 @@ const Testimonial = () => {
                       </div>
                       <div className="zl-testimonial-author-col -right">
                         <div className="zl-testimonial-name">
-                          Daniel Bland, CEO
+                          Mr Palash Garg
                         </div>
                         <div className="zl-testimonial-title">
-                          Cirus Foundation
+                         OSD to Chancellor at Medi-Caps University
                         </div>
                       </div>
                     </div>
@@ -143,19 +144,18 @@ const Testimonial = () => {
                   >
                     <div className="zl-testimonial-nav -prev">
                       <button className="zl-btn zl-btn_nav">
-                        <svg className="zl-svgsprite -arrow-left-o">
+                        {/* <svg className="zl-svgsprite -arrow-left-o">
                           <use xlinkHref="/assets/img/sprites/svgsprites.svg#arrow-left-o" />
-                        </svg>
+                        </svg> */}
                       </button>
                     </div>
                     <div className="zl-testimonial-nav -next">
                       <button
                         className="zl-btn zl-btn_nav swiper-button-disabled"
-                        disabled=""
-                      >
-                        <svg className="zl-svgsprite -arrow-right-o">
+                        disabled="">
+                        {/* <svg className="zl-svgsprite -arrow-right-o">
                           <use xlinkHref="/assets/img/sprites/svgsprites.svg#arrow-right-o" />
-                        </svg>
+                        </svg> */}
                       </button>
                     </div>
                   </div>
