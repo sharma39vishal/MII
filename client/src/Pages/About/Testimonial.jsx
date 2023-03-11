@@ -4,7 +4,7 @@ import "./Testimonial.css"
 const Testimonial = () => {
   return (
     <div>
-      <section className="zl-testimonial">
+      {/* <section className="zl-testimonial">
         <div className="zl-testimonial-content">
           <div className="zl-testimonial-container">
             <div className="zl-testimonial-header">
@@ -146,7 +146,7 @@ const Testimonial = () => {
                       <button className="zl-btn zl-btn_nav">
                         {/* <svg className="zl-svgsprite -arrow-left-o">
                           <use xlinkHref="/assets/img/sprites/svgsprites.svg#arrow-left-o" />
-                        </svg> */}
+                        </svg> 
                       </button>
                     </div>
                     <div className="zl-testimonial-nav -next">
@@ -155,7 +155,7 @@ const Testimonial = () => {
                         disabled="">
                         {/* <svg className="zl-svgsprite -arrow-right-o">
                           <use xlinkHref="/assets/img/sprites/svgsprites.svg#arrow-right-o" />
-                        </svg> */}
+                        </svg> 
                       </button>
                     </div>
                   </div>
@@ -164,7 +164,224 @@ const Testimonial = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+      {/* <section>
+      <section className="testimonial text-center">
+  <div className="container">
+    <div className="heading white-heading">Testimonial</div>
+    <div
+      id="testimonial4"
+      className="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x"
+      data-ride="carousel"
+      data-pause="hover"
+      data-interval={5000}
+      data-duration={2000}
+    >
+      <div className="carousel-inner" role="listbox">
+        <div className="carousel-item active">
+          <div className="testimonial4_slide">
+            <img
+              src="https://i.ibb.co/8x9xK4H/team.jpg"
+              className="img-circle img-responsive"
+            />
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.{" "}
+            </p>
+            <h4>Client 1</h4>
+          </div>
+        </div>
+        <div className="carousel-item">
+          <div className="testimonial4_slide">
+            <img
+              src="https://i.ibb.co/8x9xK4H/team.jpg"
+              className="img-circle img-responsive"
+            />
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.{" "}
+            </p>
+            <h4>Client 2</h4>
+          </div>
+        </div>
+        <div className="carousel-item">
+          <div className="testimonial4_slide">
+            <img
+              src="https://i.ibb.co/8x9xK4H/team.jpg"
+              className="img-circle img-responsive"
+            />
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.{" "}
+            </p>
+            <h4>Client 3</h4>
+          </div>
+        </div>
+      </div>
+      <a
+        className="carousel-control-prev"
+        href="#testimonial4"
+        data-slide="prev"
+      >
+        <span className="carousel-control-prev-icon" />
+      </a>
+      <a
+        className="carousel-control-next"
+        href="#testimonial4"
+        data-slide="next"
+      >
+        <span className="carousel-control-next-icon" />
+      </a>
+    </div>
+  </div>
+</section>
+
+      </section> */}
+
+<>
+  {/* Some Important Stuff here  */}
+  <div className="header">
+      <h2>Testimonials</h2>
+    <div className="container">
+      <div className="slider">
+        <div className="testimonal" id="testimonal-1">
+          <div className="user-text">
+            <h3>Lorem name</h3>
+            <div className="twitter">
+              <small>
+                @loremname <i className="fab fa-twitter" />
+              </small>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nemo
+              dolorem possimus delectus sint modi! Minima omnis exercitationem
+              nemo ea.
+            </p>
+          </div>
+          <div className="img">
+            <img
+              src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+              alt=""
+              className="user"
+            />
+          </div>
+        </div>
+        <div className="testimonal" id="testimonal-2">
+          <div className="user-text">
+            <h3>Ipsum name</h3>
+            <div className="twitter">
+              <small>
+                @loremname <i className="fab fa-twitter" />
+              </small>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+              voluptates. Hic dolorum aut reiciendis veritatis est magnam nihil
+              veniam nemo.
+            </p>
+          </div>
+          <div className="img">
+            <img
+              src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+              alt=""
+              className="user"
+            />
+          </div>
+        </div>
+        <div className="testimonal" id="testimonal-3">
+          <div className="user-text">
+            <h3>Dolor name</h3>
+            <div className="twitter">
+              <small>
+                @loremname <i className="fab fa-twitter" />
+              </small>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nemo
+              dolorem possimus delectus sint modi! Minima omnis exercitationem
+              nemo ea.
+            </p>
+          </div>
+          <div className="img">
+            <img
+              src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+              alt=""
+              className="user"
+            />
+          </div>
+        </div>
+        <div className="testimonal" id="testimonal-4">
+          <div className="user-text">
+            <h3>Sit name</h3>
+            <div className="twitter">
+              <small>
+                @loremname <i className="fab fa-twitter" />
+              </small>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nemo
+              dolorem possimus delectus sint modi! Minima omnis exercitationem
+              nemo ea.
+            </p>
+          </div>
+          <div className="img">
+            <img
+              src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+              alt=""
+              className="user"
+            />
+          </div>
+        </div>
+        <div className="testimonal" id="testimonal-5">
+          <div className="user-text">
+            <h3>Amet name</h3>
+            <div className="twitter">
+              <small>
+                @loremname <i className="fab fa-twitter" />
+              </small>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nemo
+              dolorem possimus delectus sint modi! Minima omnis exercitationem
+              nemo ea.
+            </p>
+          </div>
+          <div className="img">
+            <img
+              src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+              alt=""
+              className="user"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="slider-btn">
+        <a href="#testimonal-1">
+          <span className="dot" />
+        </a>
+        <a href="#testimonal-2">
+          <span className="dot" />
+        </a>
+        <a href="#testimonal-3">
+          <span className="dot" />
+        </a>
+        <a href="#testimonal-4">
+          <span className="dot" />
+        </a>
+        <a href="#testimonal-5">
+          <span className="dot" />
+        </a>
+      </div>
+    </div>
+  </div>
+</>
+
     </div>
   );
 };
