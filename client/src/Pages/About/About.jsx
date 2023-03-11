@@ -14,8 +14,8 @@ export default function About() {
         {/* <AboutHero/> */}
         <OurTeam/>
         <Advisors/>
-        {/* <Testimonials/> */}
-        <Testimonial/>
+        <Testimonials/>
+        {/* <Testimonial/> */}
     </div>
   )
 }

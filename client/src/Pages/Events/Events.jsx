@@ -9,6 +9,7 @@ export default function Events() {
         <div className="d-flex row justify-content-center">
           <EventComponent />
           <EventComponent />
+          <EventComponent />
           
         </div>
       </div>
