@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Blogs() {
   return (
-    <div>
+    <>
       <div className="zl-feed-content -it">
         <div className="zl-feed-container">
           <div className="zl-feed-hero" style={{willChange: 'auto', translate: 'none', rotate: 'none', scale: 'none', opacity: 1, transform: 'translate(0px, 0px)'}}>
@@ -14,14 +14,14 @@ export default function Blogs() {
                 <div className="zl-feed-date">10 Nov, 2021</div>
                 <div className="zl-feed-title">Unizen partners with GEC for DOGE-1 SpaceX mission</div>
                 <div className="zl-feed-description">GEC is a leading tech and research pioneer, focused on energy, engineering, space, development, and decentralization. Currently, GEC is working on building and launching DOGE-1...</div>
-                <div className="zl-feed-link"><a href="https://unizen-io.medium.com/unizen-partners-with-gec-for-doge-1-spacex-mission-8db59866c69d" target="_blank" rel="noopener">Read more</a></div>
+                <div className="zl-feed-link"><a href="/singleblog" target="_blank" rel="noopener">Read more</a></div>
               </div>
             </div>
           </div>
           <div className="zl-feed-main">
             <div className="zl-feed-items">
               <div className="zl-feed-item" style={{translate: 'none', rotate: 'none', scale: 'none', opacity: 1, transform: 'translate(0px, 0px)', willChange: 'auto'}}>
-                <a href="https://unizen-io.medium.com/zenx-labs-is-accelerating-stablecomp-71424e4a1d46" target="_blank" rel="noopener">
+                <a href="/singleblog" target="_blank" rel="noopener">
                   <div className="zl-feed-img"><img src="https://mailrelay.com/wp-content/uploads/2018/03/que-es-un-blog-1.png"  alt="" /></div>
                   <div className="zl-feed-date">13 Nov, 2021</div>
                   <div className="zl-feed-title">ZenX Labs Is Accelerating Stablecomp</div>
@@ -29,7 +29,7 @@ export default function Blogs() {
                 </a>
               </div>
               <div className="zl-feed-item" style={{translate: 'none', rotate: 'none', scale: 'none', opacity: 1, transform: 'translate(0px, 0px)', willChange: 'auto'}}>
-                <a href="https://unizen-io.medium.com/geeq-joins-unizen-zenx-incubator-program-d3a25a74d9ff" target="_blank" rel="noopener">
+                <a href="/singleblog" target="_blank" rel="noopener">
                   <div className="zl-feed-img"><img src="https://mailrelay.com/wp-content/uploads/2018/03/que-es-un-blog-1.png" alt="" /></div>
                   <div className="zl-feed-date">29 Oct, 2021</div>
                   <div className="zl-feed-title">Geeq Joins Unizen ZenX Accelerator Program</div>
@@ -37,7 +37,7 @@ export default function Blogs() {
                 </a>
               </div>
               <div className="zl-feed-item">
-                <a href="https://unizen-io.medium.com/zenx-labs-is-accelerating-alkimi-974dc013f273" target="_blank" rel="noopener">
+                <a href="/singleblog" target="_blank" rel="noopener">
                   <div className="zl-feed-img"><img src="https://mailrelay.com/wp-content/uploads/2018/03/que-es-un-blog-1.png" alt="" /></div>
                   <div className="zl-feed-date">21 Oct, 2021</div>
                   <div className="zl-feed-title">ZenX Labs Is Accelerating Alkimi</div>
@@ -45,7 +45,7 @@ export default function Blogs() {
                 </a>
               </div>
               <div className="zl-feed-item">
-                <a href="https://unizen-io.medium.com/whaleroom-is-accelerated-by-zenx-labs-5519c6c31359" target="_blank" rel="noopener">
+                <a href="/singleblog" target="_blank" rel="noopener">
                   <div className="zl-feed-img"><img src="https://mailrelay.com/wp-content/uploads/2018/03/que-es-un-blog-1.png" alt="" /></div>
                   <div className="zl-feed-date">13 Oct, 2021</div>
                   <div className="zl-feed-title">WhaleRoom Is Accelerated By ZenX Labs</div>
@@ -59,6 +59,6 @@ export default function Blogs() {
         </div>
       </div>
 
-    </div>
+    </>
   )
 }

@@ -8,6 +8,9 @@ export default function Events() {
         <h1 className="text-center effect">Upcoming Events</h1>
         <div className="d-flex row justify-content-center">
           <EventComponent />
+          <EventComponent />
+          <EventComponent />
+          
         </div>
       </div>
       <div className="">

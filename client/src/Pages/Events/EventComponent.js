@@ -5,7 +5,7 @@ export default function EventComponent() {
     return (
         <div className='col-lg-5 col-10 m-4'>
             <div style={{ position: "relative" }}>
-                <img src="./images/event.jpeg" class="imgevent" />
+                <img src="./images/event1.jpeg" class="imgevent" />
                 <div class='absolute '>
                     <h1 className='temp text-center'>
                         Event Name

@@ -41,37 +41,32 @@ export default function Footer() {
                   <div className="zl-outro-logo"><img src="/assets/img/logo-i.png" srcSet="/assets/img/logo-i@2x.png 2x" alt="" /></div>
                 </div>
                 <div className="zl-outro-grid-col -right">
-                  <div className="zl-outro-navs"><a className="zl-outro-nav" href="/"><span>Home</span></a>
+                  <div className="zl-outro-navs"><a className="zl-outro-nav" href="/"><span>Privacy Policy</span></a>
+                  <a className="zl-outro-nav" href="/ourofferings"><span>About Us</span></a>
                   <a className="zl-outro-nav" href="/ourofferings"><span>Services</span></a>
-                  <a className="zl-outro-nav" href="/aboutus"><span>About Us</span></a>
-                  <a className="zl-outro-nav" href="/blogs"><span>Blog</span></a></div>
-                  <div className="zl-outro-socials">
-                    <a className="zl-outro-social -instagram" href="https://unizen-io.medium.com/" target="_blank" rel="noopener" aria-label="Medium">
-                      <span>
-                        <svg className="zl-svgsprite -medium">
-                          <use xlinkHref="/assets/img/sprites/svgsprites.svg#medium" />
-                        </svg>
-                      </span>
+                  {/* <a className="zl-outro-nav" href="/ourofferings"><span>SocialMedia Icons</span></a> */}
+                  <a className="zl-outro-nav" href="/ourofferings"><span>Address</span></a>
+                  {/* <a className="zl-outro-nav" href="/blogs"><span>Blogs</span></a>
+                  <a className="zl-outro-nav" href="/contactus"><span>Contact Us</span></a> */}
+                  </div>
+                  <div className="zl-outro-socials" >
+                    <a className="zl-outro-social" href="#" target="_blank" >
+                      <i class="fa-brands fa-facebook "></i>
                     </a>
-                    <a className="zl-outro-social -facebook" href="https://t.me/unizen_io" target="_blank" rel="noopener" aria-label="Telegram">
-                      <span>
-                        <svg className="zl-svgsprite -telegram">
-                          <use xlinkHref="/assets/img/sprites/svgsprites.svg#telegram" />
-                        </svg>
-                      </span>
+                    <a className="zl-outro-social" href="#" target="_blank" >
+                    <i class="fa-brands fa-square-instagram"></i>
                     </a>
-                    <a className="zl-outro-social -twitter" href="https://twitter.com/unizen_io" target="_blank" rel="noopener" aria-label="Twitter">
-                      <span>
-                        <svg className="zl-svgsprite -twitter">
-                          <use xlinkHref="/assets/img/sprites/svgsprites.svg#twitter" />
-                        </svg>
-                      </span>
+                    <a className="zl-outro-social"  href="#" target="_blank" >
+                    <i  class="fa-brands fa-twitter"></i>
                     </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <div style={{display:"flex", justifyContent:"center", paddingTop:"20px"}}>
+        <h6>Copyright @Medicaps Software Cell</h6>
         </div>
       </section>
   );

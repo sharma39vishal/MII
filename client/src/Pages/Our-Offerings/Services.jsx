@@ -11,30 +11,38 @@ export default function Services() {
           <div className="zl-advantage-top">
             <div className="zl-advantage-container -xl">
               <div className="zl-advantage-benefit">
-                <div className="zl-advantage-benefit-items">
+                <div className="zl-advantage-benefit-items" style={{height:"00px"}}>
                   <div className="zl-advantage-benefit-item">
-                    <div className="zl-advantage-benefit-number">01</div>
-                    <div className="zl-advantage-benefit-title">Concept Refinement</div>
+                    <div className="zl-advantage-benefit-number">1.Mentoring </div>
+                    <div className="zl-advantage-benefit-title">Receive guidance and support from experienced professionals.</div>
                   </div>
                   <div className="zl-advantage-benefit-item">
-                    <div className="zl-advantage-benefit-number">02</div>
-                    <div className="zl-advantage-benefit-title">Marketing Assistance</div>
+                    <div className="zl-advantage-benefit-number">2.Seed-Fund Investment</div>
+                    <div className="zl-advantage-benefit-title">Get access to seed-fund investment to help grow your business.</div>
                   </div>
                   <div className="zl-advantage-benefit-item">
-                    <div className="zl-advantage-benefit-number">03</div>
-                    <div className="zl-advantage-benefit-title">Legal Compliance</div>
+                    <div className="zl-advantage-benefit-number">3.Access to Events</div>
+                    <div className="zl-advantage-benefit-title"> Attend events and network with other entrepreneurs.</div>
                   </div>
                   <div className="zl-advantage-benefit-item">
-                    <div className="zl-advantage-benefit-number">04</div>
-                    <div className="zl-advantage-benefit-title">Roadmap Mapping</div>
+                    <div className="zl-advantage-benefit-number">4.Co-working</div>
+                    <div className="zl-advantage-benefit-title"> Work in a collaborative environment with other start-ups.</div>
                   </div>
                   <div className="zl-advantage-benefit-item">
-                    <div className="zl-advantage-benefit-number">05</div>
-                    <div className="zl-advantage-benefit-title">Collaboration with advisors</div>
+                    <div className="zl-advantage-benefit-number">5.HR Access</div>
+                    <div className="zl-advantage-benefit-title">Connect with human resources professionals to help with hiring and HR needs.</div>
                   </div>
                   <div className="zl-advantage-benefit-item">
-                    <div className="zl-advantage-benefit-number">06</div>
-                    <div className="zl-advantage-benefit-title">Exchange Representation</div>
+                    <div className="zl-advantage-benefit-number">6.Interns</div>
+                    <div className="zl-advantage-benefit-title">Hire interns to help with your business operations.</div>
+                  </div>
+                  <div className="zl-advantage-benefit-item">
+                    <div className="zl-advantage-benefit-number">7.Research Support</div>
+                    <div className="zl-advantage-benefit-title">Receive support with research and market analysis.</div>
+                  </div>
+                  <div className="zl-advantage-benefit-item">
+                    <div className="zl-advantage-benefit-number">8.Business Plan Development</div>
+                    <div className="zl-advantage-benefit-title">Get assistance with developing a solid business plan.</div>
                   </div>
                 </div>
               </div>

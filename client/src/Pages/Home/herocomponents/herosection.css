@@ -1,16 +1,47 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Montserrat:wght@100&family=Red+Hat+Mono:wght@300&family=Ubuntu:wght@300&display=swap');
+
+
 .herosection{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.logovidcon{
+   display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+#vid{
+    width: 50%;
+}
+.logo,.logo1{
+    position:absolute;
+}
+.logo1{
+    margin-top: 4rem;
+    padding-left: 2px;
+    top: 80%;
+}
+.logo{
+    display: flex;
     flex-direction: column;
-    align-items: center;    
-    padding: 10px 200px 10px 200px;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
+.logo1 h1,.logo h1{
+    font-family: 'Inspiration', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Red Hat Mono', monospace;
+font-family: 'Teko', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
 
-.herosection p{
-    font-size: 25px;
-    color: gray;
-    text-align: justify;
 }
-.herosection h1{
-    font-size: 40px;
+.logo h1{
+    
+    font-size: 4em;
 }

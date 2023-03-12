@@ -1,17 +1,73 @@
-.section2{
-   background-color: black;
-   padding: 10px 200px 10px 200px;
-   /* display: flex; */
-   /* flex-direction: column; */
-   /* align-items: center; */
-   /* text-align: center; */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+
+.aboutus{
+  
+   width: 100%;
+   display: flex;
+   
+
 }
-.section2 p{
-   font-size: 30px;
-   color: white;
-   /* text-align: justify; */
+.aboutus{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-left:18vw;
+   padding-right:18vw;
+   padding-top: 2em;
+   padding-bottom: 2em;
+   background-color: #0f0f0f;
+   color: aliceblue;
+   flex-direction: column;
+   margin-top: 30px;
 }
-.section2 h1{
-   color: white;
-   font-size: 40px;
+.someth{
+   background-color: rgb(204, 204, 204);
+   color: black;
+   flex-direction: column;
+}
+.abtmii{
+   /* text-align:justify; */
+   font-family: Inter,sans-serif;
+   font-weight: 800;
+   margin-bottom: 2em;
+   font-size: 2.5vw;
+}
+.greenColor{
+   color: rgb(1, 185, 124);
+}
+.morein{
+   text-align:justify;
+   font-size: 1.5vw;
+   font-weight: 800;
+   font-family: Inter,sans-serif;
+}
+
+.someth1{
+   display: flex;
+   flex-wrap: wrap;
+   width: 90%;
+   margin: 40px;
+   font-size: 1.5vw;
+}
+
+.head{
+   /* text-align:justify; */
+   margin-bottom: 3em;
+   font-weight: bold;
+   width: 30%;
+   margin: 8vw 0 8vw 8vw;
+}
+.content{
+      font-weight: bold;
+      /* text-align:justify; */
+      margin-bottom: 3em;
+      width: 40%;
+      margin: 8vw ;
+}
+
+.underLi{
+   text-decoration: none; 
+   padding-bottom: 15px;
+   border-bottom:3px solid #7F8487; 
 }
