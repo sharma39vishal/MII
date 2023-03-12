@@ -1,5 +1,5 @@
 import React from 'react'
-import './incub.css'
+// import './incub.css'
 export default function Incubation() {
   return (
     <div className='zl-staff -inverse '>
