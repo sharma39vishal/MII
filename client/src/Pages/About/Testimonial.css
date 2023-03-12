@@ -237,7 +237,7 @@
 
 
 /* Some Important Stuff also here */
-
+/*
 * {
     margin: 0%;
     padding: 0%;
@@ -277,7 +277,7 @@
     cursor: default;
   }
   
-  /* Dosent Work in FireFox, but has overflow: hidden; so It works! :) */
+   Dosent Work in FireFox, but has overflow: hidden; so It works! :) 
   .slider::-webkit-scrollbar {
     width: 0px;
     height: 0px;
@@ -341,4 +341,4 @@
   .dot:hover {
     background-color: #717171;
   }
-  
+  */
