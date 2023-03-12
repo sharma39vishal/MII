@@ -3,9 +3,7 @@ import './herosection.css'
 export default function Herosection() {
   return (
     <div className="herosection" id="hero">
-
       <div className="logovidcon">
-        
         <div className="logo">
         <h1>About</h1>
         <h1>US</h1>
