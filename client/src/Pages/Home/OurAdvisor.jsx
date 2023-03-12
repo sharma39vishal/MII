@@ -2,7 +2,7 @@ import React from "react";
 import "./ouradvisor.css";
 export default function OurAdvisor() {
   return (
-    <div className="">
+    <div className=" " >
       <h1 style={{ textAlign: "center" }}>OUR TEAM</h1>
       <div className="our-team">
         <div className="single-person">

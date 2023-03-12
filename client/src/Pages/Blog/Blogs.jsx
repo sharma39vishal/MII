@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Blogs() {
   return (
-    <div>
+    <>
       <div className="zl-feed-content -it">
         <div className="zl-feed-container">
           <div className="zl-feed-hero" style={{willChange: 'auto', translate: 'none', rotate: 'none', scale: 'none', opacity: 1, transform: 'translate(0px, 0px)'}}>
@@ -59,6 +59,6 @@ export default function Blogs() {
         </div>
       </div>
 
-    </div>
+    </>
   )
 }

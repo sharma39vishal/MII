@@ -41,10 +41,14 @@ export default function Footer() {
                   <div className="zl-outro-logo"><img src="/assets/img/logo-i.png" srcSet="/assets/img/logo-i@2x.png 2x" alt="" /></div>
                 </div>
                 <div className="zl-outro-grid-col -right">
-                  <div className="zl-outro-navs"><a className="zl-outro-nav" href="/"><span>Home</span></a>
+                  <div className="zl-outro-navs"><a className="zl-outro-nav" href="/"><span>Privacy Policy</span></a>
+                  <a className="zl-outro-nav" href="/ourofferings"><span>About Us</span></a>
                   <a className="zl-outro-nav" href="/ourofferings"><span>Services</span></a>
-                  <a className="zl-outro-nav" href="/blogs"><span>Blogs</span></a>
-                  <a className="zl-outro-nav" href="/contactus"><span>Contact Us</span></a></div>
+                  {/* <a className="zl-outro-nav" href="/ourofferings"><span>SocialMedia Icons</span></a> */}
+                  <a className="zl-outro-nav" href="/ourofferings"><span>Address</span></a>
+                  {/* <a className="zl-outro-nav" href="/blogs"><span>Blogs</span></a>
+                  <a className="zl-outro-nav" href="/contactus"><span>Contact Us</span></a> */}
+                  </div>
                   <div className="zl-outro-socials" >
                     <a className="zl-outro-social" href="#" target="_blank" >
                       <i class="fa-brands fa-facebook "></i>

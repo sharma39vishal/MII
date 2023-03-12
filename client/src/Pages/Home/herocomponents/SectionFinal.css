@@ -1,0 +1,22 @@
+.abc {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.pqr {
+  
+    display: "flex";
+    align-items: "center";
+    color: white;
+    background-color: #008a6e;
+    padding: 25px 50px;
+    border-radius: 5%;
+    width: 250px;
+    transition: .5s ease-in-out;
+    text-decoration: none;
+}
+.pqr:hover{
+background-color: white;
+color: black;
+}

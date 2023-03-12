@@ -2,20 +2,22 @@ import React from "react";
 import './herosection.css'
 export default function Herosection() {
   return (
-    <div className="herosection">
+    <div className="herosection" id="hero">
 
       <div className="logovidcon">
-        <div className="logo1">
-        <h1 className="titleofmmii">Unlock your business potential</h1>
-
-        </div>
+        
         <div className="logo">
-        <h1>MII</h1>
-        <h1>Foundation</h1>
-        </div>
+        <h1>About</h1>
+        <h1>US</h1>
+        </div> 
         <video  id="vid" preload="auto" autoPlay loop muted playsInline>
           <source src="./images/1.mp4" type="video/mp4" />
         </video>
+
+        <div className="logo1">
+          <h1 className="titleofmmii">"Create a perfect ecosystem for your business"</h1>
+
+        </div>
       </div>
 
 
