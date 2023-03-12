@@ -1,34 +1,28 @@
 .effect {
-    color: hsl(0, 0%, 28%);
-    font-weight: bold;
-    font-family: monospace;
-    letter-spacing: 7px;
-    cursor: pointer;
-    text-transform: uppercase;
-}
-
-.effect {
-    /* padding: 64px; */
-    background: linear-gradient(to right, hsl(0, 14%, 93%) 0, #dc3545 10%, hsl(0, 14%, 93%) 20%);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: shine 2s infinite linear;
+  /* padding: 64px; */
+  
+  background: #222 -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff)) 0 0 no-repeat;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 2s infinite linear;
+  text-shadow: 0 0px 0px rgba(196, 195, 195, 0.5);
+  -webkit-background-size: 150px;
 }
 
 @keyframes shine {
-    0% {
-        background-position: 0;
-    }
+  0% {
+      background-position: 0;
+  }
 
-    60% {
-        background-position: 600px;
-    }
+  60% {
+      background-position: 600px;
+  }
 
-    100% {
-        background-position: 600px;
-    }
+  100% {
+      background-position: 600px;
+  }
 }
-
+  
 
 .slide-fwd-top {
 
