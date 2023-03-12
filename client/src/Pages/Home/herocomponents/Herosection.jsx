@@ -4,9 +4,6 @@ export default function Herosection() {
     <div className="zl-hero-content">
       <div className="zl-hero-container">
         <div className="zl-hero-video -top" style={{ opacity: 1 }}>
-          <div className="zl-hero-logo">
-            {/* <img width={"20px"} height={"30px"} src="./images/medicaps.png" alt="ZenX Labs"  /> */}
-          </div>
           <video preload="auto" autoPlay loop muted playsInline>
             <source src="./images/1.mp4" type="video/mp4" />
           </video>
