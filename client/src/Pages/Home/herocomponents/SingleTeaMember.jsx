@@ -18,7 +18,7 @@ export default function SingleTeaMember(props) {
               <div className="zl-staff-info">
                 <div className="zl-staff-item-avatar"><img src={props.img} alt="" /></div>
                 <div className="zl-staff-item-name">
-                  <h4>{props.name}</h4>
+                  <h4 >{props.name}</h4>
                   <p>{props.designation}</p>
                 </div>
               </div>

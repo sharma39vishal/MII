@@ -18,11 +18,11 @@ export default function OurOfferings() {
           <div className="zl-hero-description">
             <p style={{}}> Incubation and Consulting - to help start-ups grow and succeed.</p>
           </div>
-          <div className="zl-hero-down" style={{translate: 'none', rotate: 'none', scale: 'none', opacity: 1, transform: 'translate(0px, 0px)'}}>
+          {/* <div className="zl-hero-down" style={{translate: 'none', rotate: 'none', scale: 'none', opacity: 1, transform: 'translate(0px, 0px)'}}>
             <svg className="zl-svgsprite -arrow-down-o">
               <use xlinkHref="/assets/img/sprites/svgsprites.svg#arrow-down-o" />
             </svg>
-          </div>
+          </div> */}
         </div>
       </div>
       {/* <Services/> */}

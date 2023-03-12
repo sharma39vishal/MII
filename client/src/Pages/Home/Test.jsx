@@ -73,10 +73,12 @@ const Test = () => {
               <a
                 className="zl-media-item"
                 href="https://www.reliablesoft.net/wp-content/uploads/2019/12/free-images-for-blogs.jpg"
+                
                 target="_blank"
                 alt ="hello"
                 rel="noopener"
                 style={{
+                  color: "black",
                   translate: "none",
                   rotate: "none",
                   scale: "none",
@@ -103,6 +105,7 @@ const Test = () => {
                 target="_blank"
                 rel="noopener"
                 style={{
+                  color: "black",
                   translate: "none",
                   rotate: "none",
                   scale: "none",
@@ -119,8 +122,7 @@ const Test = () => {
                     Lorem Ipsum is simply dummy text.
                   </div>
                   <div className="zl-media-description">
-                   
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ind ustry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ind ustry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
                   </div>
                 </div>
               </a>
@@ -130,6 +132,7 @@ const Test = () => {
                 target="_blank"
                 rel="noopener"
                 style={{
+                  color: "black",
                   translate: "none",
                   rotate: "none",
                   scale: "none",

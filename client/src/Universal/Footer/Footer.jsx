@@ -44,7 +44,6 @@ export default function Footer() {
                   <div className="zl-outro-navs"><a className="zl-outro-nav" href="/"><span>Privacy Policy</span></a>
                   <a className="zl-outro-nav" href="/ourofferings"><span>About Us</span></a>
                   <a className="zl-outro-nav" href="/ourofferings"><span>Services</span></a>
-                  <a className="zl-outro-nav" href="/ourofferings"><span>MII Community</span></a>
                   {/* <a className="zl-outro-nav" href="/ourofferings"><span>SocialMedia Icons</span></a> */}
                   <a className="zl-outro-nav" href="/ourofferings"><span>Address</span></a>
                   {/* <a className="zl-outro-nav" href="/blogs"><span>Blogs</span></a>

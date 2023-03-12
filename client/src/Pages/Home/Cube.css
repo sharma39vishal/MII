@@ -1,0 +1,70 @@
+
+
+
+.circle {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.circle:before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px #343434, 0 0 0 20px #3b3b3b, 0 0 0 30px #484848,
+    0 0 0 40px #5a5a5a, 0 0 0 50px #343434, inset 0 0 40px rgba(0, 0, 0, 0.5);
+}
+
+.dots {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 50%;
+  animation: animate 10s linear infinite;
+}
+
+.dots:before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #fff; /*dot color*/
+  border-radius: 50%;
+  left: calc(50% - 5px);
+  top: 0;
+  box-shadow: 50px 0 0 #fff, -65px -50px 0 #ff1b1b, -65px 50px 0 #fff,
+    -55px 0 0 #fff55e, 45px 35px 0 #ff0000, 40px -40px 0 #ff1b1b,
+    40px -40px 0 #fff, 55px -59px 0 #fff55e;
+}
+
+.dots:after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #fff; /*dot color*/
+  border-radius: 50%;
+  left: calc(50% - 5px);
+  bottom: 0;
+  box-shadow: -50px 0 0 #fff, 65px -50px 0 #fff55e, 65px -50px 0 #fff,
+    55px 0 0 #ffe700, -45px -35px 0 #ffe700, 40px 40px 0 #ff7402,
+    -40px 40px 0 #fff, -55px -59px 0 #ffe700;
+  animation: animate 10s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
