@@ -4,7 +4,7 @@ import "./Cube.css";
 export default function Cube() {
   return (
     <div className="row container-fluid justify-content-center" style={{ display: "flex", justifyContent: "center" , margin:"0"}}>
-      <div className="col-lg-6" style={{ justifyContent: "justify-content-center" , padding:"10%" }}>
+      <div className="col-lg-6" style={{ justifyContent: "justify-content-center" , padding:"10%"}}>
         <div  >
           <div className="circle" style={{ padding:"10%"}} >
             <div className="dots"></div>

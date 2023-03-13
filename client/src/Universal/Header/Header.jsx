@@ -13,8 +13,6 @@ export default function Header() {
           <NavLink to="/">
             <img src="./images/medicaps.png"  alt="" width={"80px"} />
           </NavLink>
-   
-        </div>
         {!display1?<>
         {display ? (
             <p className="cross" onClick={() => setDisplay(!display)}>
@@ -27,6 +25,7 @@ export default function Header() {
             </div>
           )}
           </>:<></>}
+        </div>
         {display ? <ul className="nav-items">
           <li className="nav-list list-active1">
             <NavLink to="/about" onClick={()=>{navigate("/about")}} >About</NavLink>

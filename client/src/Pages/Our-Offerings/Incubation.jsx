@@ -13,11 +13,6 @@ export default function Incubation() {
           <div className="cont">
             <p>Receive guidance and support from experienced professionals.</p>
           </div>
-
-          
-
-
-
         </div>
           <div className="incucon">
           <div className="headin">

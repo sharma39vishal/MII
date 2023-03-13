@@ -66,7 +66,8 @@ export default function Footer() {
           </div>
         </div>
         <div style={{display:"flex", justifyContent:"center", paddingTop:"20px"}}>
-        <h6>Copyright @Medicaps Software Cell</h6>
+        <h6>Copyright @Software Cell(Medicaps University 
+        Indore)</h6>
         </div>
       </section>
   );
